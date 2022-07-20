@@ -1,0 +1,107 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  
+     <head></head>
+     <style>
+
+         h1{
+
+             font-sine:  18px;
+             color: #000;
+             text-align: center;
+             margin-top: -20px;
+             margin-bottom: 20px;
+
+
+           }
+
+           table
+           {
+             border-collapse: collapse;
+             background-color: #fff;
+             box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+              border-radius: 1px;
+              margin: auto;
+
+
+           }
+             th,td{
+
+                  border: 1px solid;
+
+             }
+
+     </style>
+
+
+     <body>
+
+           <div class="center-div">
+
+                <div class="table-responsive">
+                 <table>  
+                   <thead>
+                   
+                    <tr>
+                             <th>ID</th>
+                             <th>NAME</th>
+                             <th>EMAIL</th>
+                             <th>MOBILE</th>
+                             <th>PASSWORD</th>
+                             <th>CPASSWORD</th>
+
+                     </tr>
+                   </thead>
+ 
+                            
+
+
+                            <tbody>
+                                    <?php
+                                       
+                                       include 'dbcon.php';
+
+                                       $selectquery = "select * from employeedb";
+
+                                       $query = mysqli_query($con,$selectquery);
+
+                                       $nums = mysqli_num_rows($query);
+
+
+                                      while($res = mysqli_fetch_array($query))
+                                      {
+                                           ?>
+                                          <tr>
+                                            <td><?php echo $res['id'];  ?></td>
+                                            <td><?php echo $res['Emp_name'];  ?></td>
+                                            <td><?php echo $res['Emp_emailid'];  ?></td>
+                                            <td><?php echo $res['Emp_mobile'];  ?></td>
+                                            <td><?php echo $res['password'];  ?></td>
+                                            <td><?php echo $res['cpassword'];  ?></td>
+
+                                          </tr>
+                                          <?php 
+                                      }
+
+                                       ?>
+                              
+                            </tbody>
+
+
+
+
+             
+                </table>
+
+                </div>
+           </div>
+
+
+     </body>
+</html>

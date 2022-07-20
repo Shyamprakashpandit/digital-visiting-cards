@@ -1,0 +1,34 @@
+.form-group {
+          position: absolute;
+         top: 100px;
+          
+        height: 400px;
+
+       background: red;
+       border: 8px;
+       border-style: double;
+       margin: 20px;
+       padding: 20px;
+
+
+}
+
+#name{
+
+   height: 20px;
+}
+
+#email{
+        
+        height: 20px;
+}
+#phone{
+
+     
+        height: 25px;
+}
+
+.btnSubmit btn-block{
+
+    top: 200px;
+}

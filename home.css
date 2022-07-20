@@ -1,0 +1,193 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  
+ }
+
+nav{
+     
+     color: white;
+     
+}
+
+
+nav ul{
+      float: right;
+      margin-right: 30px;
+      
+
+}
+
+nav ul li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+     text-decoration: none;
+}
+nav ul li a{
+
+        color: blue;
+        font-size: 14px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+a.active, a:hover{
+      background: #1b9bff;
+      transition: .5s;
+      text-decoration: none;
+
+}
+.checkbtn{
+      color: white;
+      font-size: 30px;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+  }
+  #check{
+     display: none;
+  }
+@media(max-width: 952px){
+
+       nav ul li a{
+             font-size: 16px;
+       }
+}
+@media(max-width: 858px){
+
+     .checkbtn{display: block;}
+     ul{
+         position: fixed;
+         width: 100%;
+         height: 100vh;
+         background: #2c3e50;
+         top: 80px;
+         left: -100%;
+         text-align: center;
+         transition: all .5s;
+     }
+     nav ul li{
+
+             display: block;
+             margin: 50px 0;
+             line-height: 30px;
+     }
+     nav ul li a{
+          font-size: 20px;
+
+     }
+     a:hover,a.active{
+        background: none;
+        color: #0082e6;
+       
+     }
+     #check:checked ~ ul{
+           left: 0;
+
+     }
+}
+nav li:hover .sub-menu{
+      display:block;
+      position: absolute;
+
+}
+
+
+.sub-menu{
+         display: none;
+         list-style: none;
+         background: gray;
+         position: absolute;
+         top: 100px;
+         
+}
+
+.sub-menu ul{
+            padding: 0;
+            margin: 0;
+            float: right;
+           
+}
+
+.sub-menu ul li{
+                 font-size: 10px;
+                 width: 130px;
+                 float: none;
+                 display: list-item;
+                 position: relative;
+
+              }
+    .sub-menu ul li a{
+
+                   display: block;
+                   padding: 0;
+                   color: white;
+                   text-decoration: none;
+                   line-height: 30px;
+                   font-size: 10px;
+    }
+
+
+
+.sub-menu12{
+         display: none;
+         list-style: none;
+         background: gray;
+        
+
+         
+}
+
+.sub-menu12 ul{
+            padding: 0;
+            margin: 0;
+            float: right;
+           
+}
+
+.sub-menu12 ul li{
+                 font-size: 20px;
+                 width: 130px;
+                 float: none;
+                 display: list-item;
+                 position: relative;
+
+              }
+    .sub-menu12 ul li a{
+
+                   display: block;
+                   padding: 0 ;
+                   color: white;
+                   text-decoration: none;
+                   line-height: 30px;
+                   font-size: 20px;
+    }
+ .sub-menu ul li:hover .sub-menu12 {
+      display:block;
+      position: absolute;
+      margin-top: -20px;
+      margin-left: 130px;
+      background: gray;
+
+}
+  
+  .checkbtn{
+      color: blue;
+      font-size: 30px;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+  }
+  #check{
+     display: none;
+  }

@@ -1,0 +1,238 @@
+<?php 
+
+     include 'dbcon.php';
+   session_start();
+    
+    if(isset($_POST['submit'])){
+
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+
+         $email_s = "SELECT * FROM registration WHERE email = '$email'";
+         $query = mysqli_query($con,$email_s);
+         
+
+         $email_c = mysqli_num_rows($query);
+
+         if($email_c)
+         {
+
+            $email_p = mysqli_fetch_assoc($query);
+
+            $db_pass = $email_p['password'];
+
+            $_SESSION['email'] = $email_p['email'];
+
+            $pass_decode = password_verify($password, $db_pass);
+
+            if($pass_decode){
+               
+   
+              echo "login successful";
+
+               ?>
+
+              <script>
+                      location.replace("");
+
+              </script>
+
+              <?php 
+
+
+            }else{echo "password incorrect";}
+
+         }else
+         {
+
+            echo "invalid email";
+         } 
+    }
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--saved from url=(0014)about:internet-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Login</title>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=9" > 
+
+<script language="javascript" type="text/javascript">
+    
+</script>
+</head>
+<style>
+    .internalDiv{
+position:absolute;
+left:500px;
+top:70px;
+z-index:92;
+width:450px;
+height:560px;
+-webkit-opacity:0.3;
+-webkit-border-radius:0px 30px 0px 30px;
+background-color:#6FF;
+box-shadow:0px 0px 8px 4px black;
+}
+
+.innerDiv{
+position:fixed;
+top:150px;
+left:530px;
+z-index:93;
+width:350px;
+height:360px;
+background-color:#FFF;
+border:solid 0px;
+border-radius:20px 0px 20px 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+                width: 100%;
+                height: 40px;
+                border-radius: 5px;
+                padding-left: 10px;
+                font-size: 18px;
+                border: 1px solid #BDBDBD;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  width: 205px;
+            height: 45px;
+            text-align: center;
+            font-size: 19px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+            font-weight: bold !important;
+            background: linear-gradient(#67ae55, #578843);
+            background-color: #69a74e;
+            box-shadow: inset 0 1px 1px #a4e388;
+            border-color: #3b6e22 #3b6e22 #2c5115;
+            border: 1px solid;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn{
+  float: left;
+  width: 50%;
+}
+
+.signupbtn {
+  float: center;
+  width: 30%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+</style>
+<body>
+
+
+
+
+<div class="internalDiv">
+
+</div>
+<form action="login.php" method="POST">
+<div class="innerDiv">
+<div class="container">
+<span><h4>Please Login Here....</h4></span><br/>
+User Name:<input type="text" name="email" autofocus placeholder="Enter User ID"/>
+Password:<input type="password" name="password" placeholder="Enter Password"/><br/>
+
+
+<div class="clearfix"> 
+ <center><button class="signupbtn" type="submit" onclick="Login();" name="submit">Login</button></center></div>
+</div>
+<p>Don't have account please  <a href="signup.html" style="color:dodgerblue">click here</a>.</p>
+</div>
+</div>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,793 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Digital visiting card</title>
+
+         <link rel="stylesheet" type="text/css" href="/main.css" />
+         <link rel="stylesheet" type="text/css" href="top.css" />
+         <script type="text/javascript" src="jquery.js"></script>
+         <link  href="bootstrap.css" rel="stylesheet" type="text/css" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+          
+       
+           
+         <meta http-equiv="X-UA-Compatible" content="IE=9" > 
+
+         <script language="javascript" type="text/javascript">
+    
+         </script>
+
+         
+
+
+
+<link rel="stylesheet" href="in.css"/>
+<style>
+ .left{ border: 4px solid grey;
+        background: grey;
+        display: inline-block;
+      }
+#top-bar {
+    
+
+    background: #CACFD2;
+    color: #F4F6F6;
+    padding: 2px 0 3px;
+    height:40px;
+}
+
+.tp{
+     position:absolute;
+     left: 50px;
+     top: 10px;
+     color: black;
+     
+}
+.tg{
+     position:absolute;
+     left: 350px;
+     top: 10px;
+     color: black;
+}
+@media screen and (max-width:767px)
+{
+    #top-bar {
+    
+
+    background: #CACFD2;
+    color: #F4F6F6;
+    padding: 2px 0 3px;
+    height:40px;
+}
+
+.tp{
+     position:absolute;
+     left: 0px;
+     top: 10px;
+     color: black;
+     visibility: hidden;
+}
+.tg{
+     position:absolute;
+     left: 50px;
+     top: 10px;
+     color: black;
+     visibility: hidden;
+}
+}
+#mtop-bar {
+
+    
+    background: #1E283A;
+    color: #9f9f9f;
+    padding: 5px 0 3px;
+}
+#header {
+  
+    background: #fff none repeat scroll 0 0;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+    z-index: 999;
+}
+.sp{
+       position: absolute;
+       left: 10rem;
+       width: 90%;
+       top: 50rem;
+       margin: 4rem auto;
+       
+}
+.midright{
+           position: absolute;
+           display: inline-block;
+          left: 40rem;
+           top: 0rem;
+           width:30%;
+           margin: 4rem auto;
+}
+.midright1{
+           position: absolute;
+           display: inline-block;
+          left: 60rem;
+           top: 0rem;
+           width:30%;
+           margin: 4rem auto;
+}
+.midright2{
+            position: absolute;
+           display: inline-block;
+          left: 80rem;
+           top: 0rem;
+           width:30%;
+           margin: 4rem auto;
+}
+.midright3{
+           position: absolute;
+           display: inline-block;
+          left: 100rem;
+           top: 0rem;
+           width:10%;
+           margin: 4rem auto;
+}
+.midright4{
+            position: absolute;
+           display: inline-block;
+          left: 40rem;
+           top: 20rem;
+           width:30%;
+           margin: 4rem auto;
+}
+.midright5{
+           position: absolute;
+           display: inline-block;
+          left: 60rem;
+           top: 20rem;
+           width:30%;
+           margin: 4rem auto;
+}
+.midright6{
+           position: absolute;
+           display: inline-block;
+          left: 80rem;
+           top: 20rem;
+           width:30%;
+           margin: 4rem auto;
+}
+.midright7{
+           position: absolute;
+           display: inline-block;
+          left: 100rem;
+           top: 20rem;
+           width:10%;
+           margin: 4rem auto;
+}
+
+@media screen and (max-width: 1200px)
+{
+
+   .sp{
+       
+        position:static;
+        padding: 0px;
+        text-align: center;
+    box-sizing:border-box;
+   }
+   .midright{
+        position: relative;
+           display: inline-block;
+          left:-200px;
+           top: 50rem;
+           width:0%;
+          box-sizing:border-box;
+       text-align: center;
+   }
+   .midright1{
+           position: relative;
+           display: inline-block;
+          left: -200px;
+           top: 70rem;
+           width:0%;
+          
+            text-align: center;
+}
+.midright2{
+            position: relative;
+           display: inline-block;
+          left:-200px;
+           top:90rem;
+           width:0%;
+           margin: 4rem auto;
+            text-align: center;
+}
+.midright3{
+           position: relative;
+           display: inline-block;
+          left: -200px;
+           top: 110rem;
+           width:0%;
+           margin: 4rem auto;
+            text-align: center;
+}
+.midright4{
+            position: relative;
+           display: inline-block;
+          left: -200px;
+           top: 130rem;
+           width:0%;
+           margin: 4rem auto;
+            text-align: center;
+}
+.midright5{
+           position: relative;
+           display: inline-block;
+          left:-200px;
+           top: 150rem;
+           width:0%;
+           margin: 4rem auto;
+            text-align: center;
+}
+.midright6{
+           position: relative;
+           display: inline-block;
+          left:-200px;
+           top: 170rem;
+           width:0%;
+           margin: 4rem auto;
+            text-align: center;
+}
+.midright7{
+           position: relative;
+           display: inline-block;
+          left: -200px;
+           top: 190rem;
+           width:0%;
+          
+            text-align: center;
+}
+}
+.footer{
+         position: absolute;
+         
+         top: 2250px;
+         height: 50px;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:100%;
+         padding: 5px 0 3px;
+        
+}
+
+@media screen and (max-width:1200px)
+{
+.footer{
+         position: relative;
+         top: 2850px;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:100%;
+         padding: 5px 0 3px;
+        
+}
+
+
+}
+.description{
+         position: absolute;
+         top: 1000px;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:100%;
+         height: 62rem;
+         padding: 5px 0 3px;
+      }
+ .descrip{
+
+      position: absolute;
+         //top: 1000px;
+         background: #1E283A;
+         color: #9f9f9f;
+        
+         padding: 15px;
+
+
+
+ }
+.descri{
+         position: absolute;
+         
+         background: #1E283A;
+         color: #9f9f9f;
+         width:60%;
+         left: 440px;
+         //padding: 5%;
+      }
+      
+@media screen and (max-width:1200px)
+{
+
+.description{
+         position: relative;
+         top: 180rem;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:100%;
+         height: 62rem;
+         padding: 0px;
+      }
+ .descrip{
+
+      position: relative;
+         
+         background: #1E283A;
+         color: #9f9f9f;
+        
+         padding: 10px;
+
+
+
+ }
+.descri{
+         position: relative;
+         display:inline-block;
+         background: #1E283A;
+         top:0rem;
+         color: #9f9f9f;
+         width:100%;
+         left: 0px;
+         padding: 10px;
+      }
+      
+
+}
+.feature{
+         position: absolute;
+         top: 1650px;
+         
+         color: #9f9f9f;
+         width:100%;
+         left: 0px;
+         padding: 15px;
+      }
+.features{
+         position: absolute;
+         top: 1700px;
+         
+         color: #9f9f9f;
+         width:100%;
+         left: 0px;
+         padding: 15px;
+      }
+      
+@media screen and (max-width:1200px)
+{
+    .feature{
+         position: relative;
+         top: 2650px;
+         
+         color: #9f9f9f;
+         width:100%;
+         left: 0px;
+        
+      }
+.features{
+         position: relative;
+         top: 1700px;
+         
+         color: #9f9f9f;
+         width:100%;
+         left: 0px;
+         //padding: 5px 0 3px;
+      }
+}
+#headermenu{
+        position:absolute;
+        left:420px;top:100px;
+        height:30px;width:1300px;
+	}
+#headermenus{
+        position:absolute;
+        left:20px;top:50px;
+        height:15px;width:200px;
+	}
+body{
+       padding:0;
+       margin:0;
+       background:cover;
+     }
+
+
+.drop-down2{
+
+      position:relative;
+}
+
+.drop-down2 .dropdown-toggle{
+
+    color:#000 !important ;
+    padding: .25rem 1.5rem !important;
+}
+
+.drop-down2 .sub-menu2{
+
+      position:absolute;
+      top: 0;
+      left: 100%;
+}
+@media screen and (max-width:767px)
+{
+
+   .drop-down2 .sub-menu2{
+
+      position:static;
+      
+}
+}
+.navbar{
+    margin-bottom:0px;
+}
+     
+</style>  
+</head>
+
+<body>
+<div id="top-bar">
+      
+
+      <div class="tp">
+        <i class="fa  fa-phone"></i>
+        <font size="2px" >&nbsp &nbsp Phone : +91 9579656021, 8796119051</font>
+       </div>
+
+      <div class="tg">
+        <i class="fa fa-envelope"></i>
+        <font style="size:"2px"; " >&nbsp &nbsp shyamprakash112@gmail.com </div>
+
+ 
+      <div class="indivlink3">
+      <a href="">
+      <i class="fa  fa-twitter"></i>
+      </a></div>
+
+      <div class="indivlink4">
+      <a href="">
+      <i class="fa  fa-facebook"></i>
+      </a></div>
+      <div class="indivlink5">
+      <a href="">
+      <i class="fa  fa-instagram"></i>
+      </a></div>
+      <div class="indivlink6">
+      <a href="">
+      <i class="fa  fa-linkedin"></i>
+      </a></div>
+      <div class="indivlink7">
+      <a href="">
+      <i class="fa  fa-youtube"></i>
+      </a></div>
+</div>
+</div>
+
+
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="img/aj.png" height="100rem" width="200rem"></a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sample.html">Sample Card</a>
+      </li>
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          Login
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="login.html">User Login</a>
+          <a class="dropdown-item" href="companylogin.php">Company Login</a>
+          
+          <div class="nav-item dropdown drop-down2">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          Vendor Login
+        </a>
+        <div class="dropdown-menu sub-menu2" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="employeelogin.php">Employee Login</a>
+          <a class="dropdown-item" href="vendorlogin.php">Vendor Login</a>
+       </div>  
+    </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+   <script type="text/javascript">
+
+      $(".dropdown-menu a.dropdown-toggle").on('click',function function_name() {
+      	if(!$(this).next().hasClass('show'))
+      	{
+              $(this).parents(".dropdown-menu").first().find(".show").
+              removeClass("show");
+      	}
+      	var $subMenu = $(this).next('.dropdown-menu');
+        $subMenu.toggleClass("show");
+
+         $(this).parents("li.nav-item.dropdown.show").on(
+         	'hidden.bs.dropdown',function(e){
+               $(".dropdown-submenu .show").removeClass("show");
+         	});
+         return false;
+      });
+   </script>
+  
+
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide1.jpeg" class="d-block w-0" alt="..." height="300rem" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide2.jpeg" class="d-block w-0" alt="..." height="300rem" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide3.jpeg" class="d-block w-0" alt="..." height="300rem" width="100%">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+	
+	
+
+
+  <div class="sp">
+    
+         <img src="img\WhatsApp2.jpeg" width="300" height="450">
+
+  
+
+ <div class="midright">
+  
+        <img src="img\whatsapp.png" width="80" height="80"><br><br><font size=4><b>Direct Whatsapp</b></font></br>
+       
+ </div>
+
+ <div class="midright1">
+   
+         <img src="img\phone.png" width="80" height="80"><br><br><font size=4><b>Click To Call</b></font></br>
+        
+  </div>
+
+  <div class="midright2">
+   
+       <img src="img\share.png" width="80" height="80"><br><br><font size=4><b>Share Unlimited</b></font></br>
+      
+  </div >
+
+ <div class="midright3">
+   
+        <img src="img\multi.png" width="80" height="80"><br><br><font size=4><b>Website & Social Links</b></font></br>
+      
+  </div>
+
+   <div class="midright4">
+    
+       <img src="img\multimedia.png" width="80" height="80"> <br><br><font size=4><b>Video Gallery</b></font></br>
+      
+  </div>
+
+ <div class="midright5">
+  
+      <img src="img\navigation.png" width="80" height="80"><br><br><font size=4><b>Click To Nevigate</b></font></br>
+   
+ </div>  
+
+<div class="midright6">
+ 
+ <img src="img\gallery.png" width="80" height="80"><br><br><font size=4><b>Photo Gallery</b></font></br>
+   
+</div>
+
+<div class="midright7">
+   <img src="img\updated.png" width="80" height="80"><br><br><font size=4><b>Easy To Updates</b></font></br>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="description">
+
+  <div class="descrip"><img src="img/WhatsApp3.jpeg" width="350" height="580"></div>
+
+
+  <div class="descri">
+    <h1>Advantages of Digital Visiting Card</h1>
+ <strong>
+
+
+   <span>
+
+      <font size="3px"><b>One for all:</b></font><br>
+      <font size="2px"><p>For all your business portfolio, just one card says it all. You don’t have to carry different cards for different purposes. A digital card does it for you. </p></font>
+
+      <font size="3px"><b>Impact:</b></font><br>
+      <font size="2px"><p>It allows you to attach videos, presentations and links. You can share as much about your business as you want. Expressing your business this way leaves a great impact on the prospects and will fetch you great deals.  </p></font>
+
+      <font size="3px"><b>Contemporary:</b></font><br>
+      <font size="2px"><p>With changes in technology, things are getting obsolete these days. Unlike printed cards, digital card are easy to manage, update and share.  </p></font>
+
+      <font size="3px"><b>Cost-effective:</b></font><br>
+      <font size="2px"><p>Getting cards printed in bulk is a costly affair. On the other hand, digital card is a single copy that is saved and can be shared n number times.  </p></font>
+
+      <font size="3px"><b>Convenience:</b></font><br>
+      <font size="2px"><p>Digitalisation in India has made people digital. They like things that are convenient and hassle free. With just one click you can share your corporate details and your prospects will get to know about you.   </p></font>
+
+     <font size="3px"><b>Saves time
+Sustainable
+:</b></font><br>
+      <font size="2px"><p>Unlike printed cards, digital cards are environment friendly. It does not cause damage to tress and the nature. It is ahead with the time. So, grab it and make the most of it.   </p></font>
+
+     <font size="3px"><b>Time saving:</b></font><br>
+      <font size="2px"><p>Time is money in business. And digital cards saves a lot of time. One does not have to meet in-person to share the digital card like it was for printed card.    </p></font>
+
+
+      <font size="3px"><b>Sharing is easy:</b></font><br>
+      <font size="2px"><p>Digital cards can be shared with anyone from anywhere. All you need is one Digital Card, rest you already have.  
+        </p></font>
+
+
+
+
+   </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </strong>
+
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="feature">
+  <h1>Features</h1>
+
+      <h3>With us you will get customised Digital cards with various options making it easy to access your details</h3>
+      
+      <br>
+       <strong>
+
+
+   <span>
+
+      <font size="3px"><b>Calling</b></font><br>
+      <font size="2px"><p>With just one click, your prospect can directly call you. </p></font>
+
+      <font size="3px"><b>Messaging</b></font><br>
+      <font size="2px"><p>With just a click, they will be able to send text message to you..  </p></font>
+
+      <font size="3px"><b>whatsapp</b></font><br>
+      <font size="2px"><p>With just a click, they can whatsapp you without saving your number.</p></font>
+
+      <font size="3px"><b>Website & Social Links:</b></font><br>
+      <font size="2px"><p>With just a click, they canvisit your website and other social<br> media sites.  </p></font>
+
+      <font size="3px"><b>Gallery</b></font><br>
+      <font size="2px"><p>With just a click, they can view the images you have shared.   </p></font>
+
+     <font size="3px"><b>Navigation</b></font><br>
+      <font size="2px"><p>With just a click, they can navigate your location </p></font>
+
+    
+
+
+
+
+   </span>
+
+
+
+
+ </strong>
+
+
+
+
+
+</div>
+
+<div class="features">
+  
+</div>
+
+<footer>
+    <div class="footer">
+       <font size="5">©</font> &nbsp <font size="3">Copyright 2021</font>
+       
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+    //var currentLocation = window.location.href;
+    document.getElementById("demo").innerHTML =
+"Page location is " + window.location.href;
+</script>
+
+
+
+</body>
+</html>

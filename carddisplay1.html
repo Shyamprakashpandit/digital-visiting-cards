@@ -1,0 +1,546 @@
+
+
+
+<?php
+                                       
+                                       include 'dbcon.php';
+
+                                       $selectquery = "select * from upload where id=7 ";
+
+                                       $query = mysqli_query($con,$selectquery);
+
+                                       $nums = mysqli_num_rows($query);
+
+
+                                      while($res = mysqli_fetch_array($query))
+                                      {
+                                          
+                                           
+                                           $mail = $res['email'];
+                                           
+                                           $pk = $res['logo'];
+                                           $gimages = $res['images'];
+
+                                            $gvideo = $res['video'];
+
+
+
+                  }
+
+     ?>
+<img src="<?php echo $pk ?>">
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+.in{
+position:absolute;
+left:130px;
+top:170px;
+z-index:93;
+width:300px;
+height:560px;
+background-color: purple;
+border:solid 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+#in1{
+position:absolute;
+left:480px;
+top:190px;
+z-index:93;
+width:450px;
+height:600px;
+background-color:whitesmoke;
+border:solid 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+display: inline-block;
+
+}
+.in2{
+position:absolute;
+left:50px;
+top:60px;
+z-index:93;
+width:30px;
+height:400px;
+background-color:white;
+border:solid 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+
+#in3{
+position:absolute;
+left:480px;
+top:840px;
+z-index:93;
+width:450px;
+height:600px;
+background-color:white;
+border:solid 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+
+#in4{
+position:absolute;
+left:480px;
+top:1490px;
+z-index:93;
+width:450px;
+height:600px;
+background-color:white;
+border:solid 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+#in5{
+position:absolute;
+left:480px;
+top:2140px;
+z-index:93;
+width:450px;
+height:600px;
+background-color:white;
+border:solid 0px;
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+display: inline-block;
+
+}
+.h{
+           position: absolute;
+           display: inline-block;
+           left:140px;
+           top: 50px;
+           height: 100px;
+           width:100%;
+           margin: 12px auto;
+}
+.selectdiv
+{
+  position: absolute;
+           display: inline-block;
+           left:150px;
+           top: 50px;
+           height: 100px;
+           width:100%;
+           margin: 12px auto;
+}
+
+.indiv{
+           position: absolute;
+           display: inline-block;
+           left:100px;
+           top: 400px;
+           height: 100px;
+           width:100%;
+           margin: 12px auto;
+}
+.indiv2{
+           position: absolute;
+           display: inline-block;
+           left:100px;
+           top: 30px;
+           height: 100px;
+           width:100%;
+           margin: 12px auto;
+}
+.indiv3{
+           position: absolute;
+           display: inline-block;
+           left:50px;
+           top: 450px;
+           height: 100px;
+           width:100%;
+           margin: 12px auto;
+}
+body{
+background-image:url(b2.jpeg);
+background-size: cover;
+background-size: fixed;
+padding: 80px;
+}
+
+.inlink1{
+     position:absolute;
+    
+     top: 20px;
+     
+}
+.inlink2{
+     position:absolute;
+     
+     top: 60px;
+     
+}
+.inlink3{
+     position:absolute;
+     
+     top: 120px;
+     
+}
+.inlink4{
+     position:absolute;
+    
+     top: 200px;
+     
+}
+.inlink5{
+     position:absolute;
+    
+     top: 290px;
+     
+}
+
+.inlink6{
+     position:absolute;
+     
+     top: 370px;
+     
+}
+.indivlink1{
+     position:absolute;
+     left: 20px;
+     top: 220px;
+     
+}
+.indivlink2{
+     position:absolute;
+     left: 20px;
+     top: 280px;
+     
+}
+.indivlink3{
+     position:absolute;
+     left: 20px;
+     top: 340px;
+     
+}
+.indivlink4{
+     position:absolute;
+     left: 20px;
+     top: 400px;
+     
+}
+
+.indiv2 img{
+             animation: rotatelogo 5s linear infinite;
+
+}
+@keyframes rotatelogo{
+      from{ transform: rotate(0deg );}
+    to{ transform: rotate(360deg );  }
+}
+.shyam{
+        
+
+}
+
+.jsp{
+
+
+}
+.sp{
+
+
+}
+
+.sp1{
+      position: absolute;
+      top: 120px;
+      left: 30;
+}
+
+.sp2{
+
+     position: absolute;
+      top: 220px;
+      left: 30;
+}
+.sp3{
+
+    position: absolute;
+      top: 120px;
+      left: 300;
+}
+.sp4{
+     position: absolute;
+      top: 180px;
+      left: 30;
+}
+.sp5{
+
+     position: absolute;
+      top: 220px;
+      left: 300;
+
+}
+
+.map{
+
+     position: absolute;
+      top: 380px;
+      left: 20px;
+      height: 120px;
+}
+
+</style>
+<body bgcolor="black">
+
+<div class="h">
+<form>
+   <select>
+      <option value="india">India(+91)</option>
+      <option value="india">India(+91)</option>
+      <option value="Abkhazia">Abkhazia +7 840, +7 940</option>
+<option value="india">Afghanistan(+93)</option>
+<option value="india">Åland Islands +358 18</option>
+<option value="india">Albania +355</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+<option value="india">India(+91)</option>
+</select>
+<input type="text" placeholder="10 digit number">
+&nbsp<a href="">
+     <img src="img\whatsapp symbol.png" height="20px" width="50px">
+    </a>
+<br><br>
+
+</form>
+</div>
+</div>
+
+
+<div class="in">
+    <div class="indiv2">
+       
+            <img src="<?php echo $pk ?>" height="150px" width="150px">
+          
+      </div>
+      <div class="indiv3">
+      <font size="6px" color="orange"><b> <?php echo $compnam ?>  </b></font>
+      </div>
+      <div class="indivlink1">
+      <a href="<?php echo $pno ?>">
+      <i class="fa fa-2x fa-phone"></i>
+      </a></div>
+      <div class="indivlink2">
+      <a href="<?php echo $wp ?>">
+      <i class="fab fa-2x fa-whatsapp"></i>
+      </a></div>
+      <div class="indivlink3">
+      <a href="<?php echo $wp ?>">
+      <i class="fa fa-2x fa-share-alt"></i>
+      </a></div>
+      <div class="indivlink4">
+      <a href="<?php echo $pno ?>">
+      <i class="fa fa-2x fa-save"></i>
+      </a></div>
+           
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="in1">
+ 
+
+     <div class="sp">
+          <h1>Basic info</h1><hr>
+     </div>
+
+       <div class="sp1">
+      
+           
+              <b> NAME:</b> &nbsp <font size="5px" ><?php echo $nam ?></font>
+            
+        
+     </div>
+
+  
+     <div class="sp2">
+      
+          
+               <b>ADDRESS :</b><font size="4px"><?php echo $adrs ?></font>
+         
+     </div>
+
+    <div class="sp3">
+       
+            <b>PHONE :</b><a href="<?php echo $pno ?>"><?php echo $pno ?></a>
+            
+     </div>
+    
+     <div class="sp4">
+      
+           <b>EMAIL :</b><a href="<?php echo $mail ?>"><?php echo $mail ?></a>
+           
+     </div>
+  
+      <div class="sp5">
+       
+            <b>WEBSITE :</b><a href="<?php echo $wb ?>"><?php echo $wb ?></a>
+            
+     </div>
+
+<div class="map">
+    <font>MAP</font>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d447986.8531463029!2d76.81115099336583!3d28.69271888103785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d047309fff32f%3A0xfc5606ed1b5d46c3!2sDelhi!5e0!3m2!1sen!2sin!4v1638777596933!5m2!1sen!2sin" width="460" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+</div>
+
+
+
+
+
+<div id="in3">
+       <h1>Gallery</h1>
+         <hr>
+        <div class="shyam">
+
+            <img src="<?php echo $gimages ?>" height="300px" width="200px" >
+            <img src="<?php echo $gimages ?>" height="300px" width="200px" >
+
+        </div>
+
+        <div class="jsp">
+
+           <video height="" width="" controls>
+
+             <source src="<?php echo $gvideo ?>" type="video/mp4">
+           </video>
+        </div>
+   
+</div>
+   
+   <div id="in4">
+      <h1>Company Profiles</h1>
+      <hr>
+         <p>
+            
+            👉<?php echo $bdesc ?>
+            
+
+
+
+
+
+
+
+         </p>
+
+
+
+
+
+
+</div>
+
+<form>
+<div id="in5">
+      <h1>Inquiry </h1>
+      <hr>
+        <h4>Your Name :</h4>
+      <input type="text" name="uname"><br>
+        <h4>Your Email :</h4>
+      <input type="text" name="email">
+       <br>
+       <h4>Your Mobile No :</h4>
+       <input type="text" name="mno">
+        <h4>Your Message :</h4>
+       <textarea name="msg" value="" cols="30" rows="10"></textarea><br>
+
+       <input type="button" name="send"  value="SEND" >
+
+</div>
+</form>
+
+
+<div class="in2">
+    <div class="inlink1">
+     <a href="#in1">
+     <i class="fa fa-2x fa-user"></i><font size="1px">BASIC INFO</font>
+     </a>
+    <hr>
+    </div>
+     
+     <div class="inlink3">
+     <a href="#in3">
+    <i class="fa fa-2x fa-images"></i><font size="1px">GALLERY</font>
+     </a>
+     <hr>
+    </div>
+     <div class="inlink4">
+     <a href="#in4">
+     <i class="fa fa-2x fa-user"></i><font size="1px">COMPANY PROFILE</font>
+     </a>
+     <hr>
+    </div>
+    <div class="inlink5">
+     <a href="">
+    <i class="fas fa-2x fa-star"></i><font size="1px">REVIEW</font>
+     </a>
+     <hr>
+    </div>
+     </center><div class="inlink6">
+     <a href="#in5">
+    <i class="fa fa-2x fa-comment"></i><center><font size="1px">INQUIRY</font>
+     </a>
+     <hr>
+    </div>
+    
+</div>
+<br>
+   
+</body>
+</html>
+
+

@@ -1,0 +1,314 @@
+[28-Dec-2021 21:52:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 21:52:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/jaibiwzw/ajinfo.in/carddetailsupload.php on line 41
+[28-Dec-2021 21:53:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 21:53:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/jaibiwzw/ajinfo.in/carddetailsupload.php on line 41
+[28-Dec-2021 22:02:17 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:02:17 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:02:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/jaibiwzw/ajinfo.in/carddetailsupload.php on line 41
+[28-Dec-2021 22:03:24 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:03:24 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:03:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/jaibiwzw/ajinfo.in/carddetailsupload.php on line 41
+[28-Dec-2021 22:06:57 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:06:57 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:24:39 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:24:39 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:24:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/jaibiwzw/ajinfo.in/carddetailsupload.php on line 41
+[28-Dec-2021 22:26:46 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:26:46 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:31:01 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:31:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home1/jaibiwzw/ajinfo.in/dbcon.php on line 8
+[28-Dec-2021 22:31:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/jaibiwzw/ajinfo.in/carddetailsupload.php on line 41
+[28-Dec-2021 22:42:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jaibiwzw/ajinfo.in/verify.php on line 5
+[28-Dec-2021 22:42:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/verify.php on line 8
+[28-Dec-2021 22:42:24 UTC] PHP Notice:  Undefined variable: _SESSION in /home1/jaibiwzw/ajinfo.in/verify.php on line 28
+[28-Dec-2021 22:42:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home1/jaibiwzw/ajinfo.in/verify.php on line 28
+[28-Dec-2021 22:44:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jaibiwzw_ajinfo'@'sh021.hostgator.in' (using password: YES) in /home1/jaibiwzw/ajinfo.in/verify.php on line 5
+[28-Dec-2021 22:44:29 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/verify.php on line 8
+[28-Dec-2021 22:44:29 UTC] PHP Notice:  Undefined variable: _SESSION in /home1/jaibiwzw/ajinfo.in/verify.php on line 28
+[28-Dec-2021 22:44:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home1/jaibiwzw/ajinfo.in/verify.php on line 28
+[31-Dec-2021 18:45:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:45:52 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:45:55 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:46:06 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:46:35 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:46:38 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:46:47 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:49:18 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:56:30 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:57:03 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:59:44 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[31-Dec-2021 18:59:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/jaibiwzw/ajinfo.in/profile1.php on line 103
+[02-Jan-2022 05:59:40 UTC] PHP Notice:  Undefined index: price in /home1/jaibiwzw/ajinfo.in/pay.php on line 17
+[02-Jan-2022 05:59:40 UTC] PHP Notice:  Undefined index: customername in /home1/jaibiwzw/ajinfo.in/pay.php on line 19
+[02-Jan-2022 05:59:40 UTC] PHP Notice:  Undefined index: email in /home1/jaibiwzw/ajinfo.in/pay.php on line 20
+[02-Jan-2022 05:59:40 UTC] PHP Notice:  Undefined index: contactno in /home1/jaibiwzw/ajinfo.in/pay.php on line 22
+[02-Jan-2022 05:59:42 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home1/jaibiwzw/ajinfo.in/pay.php(30): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/razorpay-php/src/Request.php on line 120
+[02-Jan-2022 17:32:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[02-Jan-2022 17:32:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 27
+[02-Jan-2022 17:32:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 30
+[03-Jan-2022 05:12:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:12:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:22:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:22:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:26:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:26:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:31:26 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home1/jaibiwzw/ajinfo.in/profile1.php on line 17
+[03-Jan-2022 05:31:31 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home1/jaibiwzw/ajinfo.in/profile1.php on line 17
+[03-Jan-2022 05:33:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:33:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:33:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:33:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:35:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:35:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:37:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:37:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 05:51:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 05:51:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 06:09:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 06:09:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 06:11:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 06:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 06:11:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 06:11:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 06:15:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 06:15:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 06:18:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 21
+[03-Jan-2022 06:18:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 25
+[03-Jan-2022 06:24:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 06:24:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 06:27:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 06:27:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 06:28:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 06:28:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 06:28:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 06:28:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 06:34:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 06:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 06:36:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 06:36:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 06:51:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 06:51:59 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 06:53:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 07:00:29 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 07:00:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 20
+[03-Jan-2022 07:00:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 24
+[03-Jan-2022 07:04:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 08:15:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 08:44:25 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 08:44:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 09:17:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:12:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:17:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:31:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:32:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:44:33 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:53:16 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 10:54:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 12:43:03 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 12:43:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 12:58:12 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/jaibiwzw/ajinfo.in/profile.php:359
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile.php on line 359
+[03-Jan-2022 13:02:20 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/jaibiwzw/ajinfo.in/profile.php:359
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile.php on line 359
+[03-Jan-2022 13:06:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 13:07:17 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/jaibiwzw/ajinfo.in/profile.php:359
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile.php on line 359
+[03-Jan-2022 13:08:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/jaibiwzw/ajinfo.in/profile.php:359
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile.php on line 359
+[03-Jan-2022 13:09:32 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/jaibiwzw/ajinfo.in/profile.php:359
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile.php on line 359
+[03-Jan-2022 13:14:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 13:21:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 13:35:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 13:41:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 13:54:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 13:54:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 14:00:00 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 14:00:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 14:14:22 UTC] PHP Warning:  Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) in /home1/jaibiwzw/ajinfo.in/profile.php on line 298
+[03-Jan-2022 14:14:36 UTC] PHP Warning:  Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) in /home1/jaibiwzw/ajinfo.in/profile.php on line 298
+[03-Jan-2022 14:17:16 UTC] PHP Warning:  Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) in /home1/jaibiwzw/ajinfo.in/profile.php on line 298
+[03-Jan-2022 14:17:59 UTC] PHP Warning:  Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) in /home1/jaibiwzw/ajinfo.in/profile.php on line 298
+[03-Jan-2022 14:21:24 UTC] PHP Warning:  Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) in /home1/jaibiwzw/ajinfo.in/profile.php on line 322
+[03-Jan-2022 14:32:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 14:32:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 14:33:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 14:34:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/profile1.php on line 5
+[03-Jan-2022 15:40:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 396
+[03-Jan-2022 15:40:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 396
+[03-Jan-2022 15:51:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 400
+[03-Jan-2022 15:53:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 400
+[03-Jan-2022 15:55:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 400
+[03-Jan-2022 15:58:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 420
+[03-Jan-2022 15:58:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 400
+[03-Jan-2022 15:59:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 399
+[03-Jan-2022 16:25:44 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[03-Jan-2022 16:27:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[03-Jan-2022 16:44:32 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[03-Jan-2022 17:01:17 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[03-Jan-2022 17:02:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[03-Jan-2022 17:16:18 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home1/jaibiwzw/ajinfo.in/profile1.php:1011
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile1.php on line 1011
+[04-Jan-2022 04:04:46 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 04:36:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 05:15:32 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 05:30:36 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 05:30:39 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 50
+[04-Jan-2022 05:30:44 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 50
+[04-Jan-2022 05:30:46 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 50
+[04-Jan-2022 05:36:25 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 58
+[04-Jan-2022 05:36:27 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 58
+[04-Jan-2022 05:36:28 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 58
+[04-Jan-2022 05:36:37 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jaibiwzw/ajinfo.in/profile5.php on line 58
+[04-Jan-2022 05:42:58 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 05:48:44 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 05:48:45 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 05:56:16 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 06:39:22 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 06:49:26 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 07:02:51 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 07:18:43 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home1/jaibiwzw/ajinfo.in/profile5.php:882
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile5.php on line 882
+[04-Jan-2022 07:18:50 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home1/jaibiwzw/ajinfo.in/profile5.php:882
+Stack trace:
+#0 {main}
+  thrown in /home1/jaibiwzw/ajinfo.in/profile5.php on line 882
+[04-Jan-2022 08:19:56 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:21:02 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:24:01 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:24:31 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:24:58 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:28:52 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:29:27 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:30:34 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:31:27 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:36:55 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:36:58 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:36:58 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:36:58 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:37:06 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:37:06 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:37:06 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:37:09 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:37:09 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:37:09 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:38:26 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:38:28 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:38:28 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:38:28 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:38:32 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:38:32 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:38:32 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:39:37 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:41:05 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:41:08 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:08 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:08 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:12 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:12 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:12 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:13 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:13 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:13 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:17 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:17 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:17 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 08:41:49 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:42:24 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:43:51 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:44:33 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:47:13 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:48:22 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:50:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 08:54:48 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:57:53 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 08:59:55 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:00:09 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:00:56 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:01:05 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:01:31 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:09:51 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:09:55 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 09:09:55 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 09:09:55 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 09:11:22 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:11:25 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 09:11:25 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 09:11:25 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 2
+[04-Jan-2022 09:12:50 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:12:54 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:12:54 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:12:54 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:13:01 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:13:01 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:13:01 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:13:40 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:13:40 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:13:40 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:15:36 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:15:40 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:15:40 UTC] PHP Warning:  require(dbcon): failed to open stream: No such file or directory in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:15:40 UTC] PHP Fatal error:  require(): Failed opening required 'dbcon' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jaibiwzw/ajinfo.in/storeDesign.php on line 3
+[04-Jan-2022 09:16:59 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:19:09 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:20:42 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:21:38 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:22:19 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 09:32:06 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 09:38:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 09:39:11 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 09:41:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 397
+[04-Jan-2022 09:42:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 398
+[04-Jan-2022 10:01:10 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 10:01:43 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 10:02:55 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 10:04:07 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 10:07:45 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 398
+[04-Jan-2022 10:28:12 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 10:39:29 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 13:55:19 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 14:00:45 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 398
+[04-Jan-2022 14:11:34 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 14:15:25 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 14:52:54 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 15:04:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 401
+[04-Jan-2022 17:14:59 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 17:50:19 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_query(): Empty query in /home1/jaibiwzw/ajinfo.in/profile1.php on line 119
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 120
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_query(): Empty query in /home1/jaibiwzw/ajinfo.in/profile1.php on line 119
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 120
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_query(): Empty query in /home1/jaibiwzw/ajinfo.in/profile1.php on line 119
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 120
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_query(): Empty query in /home1/jaibiwzw/ajinfo.in/profile1.php on line 119
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 120
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_query(): Empty query in /home1/jaibiwzw/ajinfo.in/profile1.php on line 119
+[04-Jan-2022 17:54:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/jaibiwzw/ajinfo.in/profile1.php on line 120
+[04-Jan-2022 18:02:03 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 401
+[05-Jan-2022 09:57:07 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[05-Jan-2022 09:58:22 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/jaibiwzw/ajinfo.in/unique_url.php on line 401
+[05-Jan-2022 14:56:45 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64
+[05-Jan-2022 14:58:11 UTC] PHP Notice:  Undefined variable: html in /home1/jaibiwzw/ajinfo.in/verify.php on line 64

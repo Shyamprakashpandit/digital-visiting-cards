@@ -1,0 +1,129 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  
+     <head></head>
+     <style>
+
+         h1{
+
+             font-sine:  18px;
+             color: #000;
+             text-align: center;
+             margin-top: -20px;
+             margin-bottom: 20px;
+
+
+           }
+
+           table
+           {
+             border-collapse: collapse;
+             background-color: #fff;
+             box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+              border-radius: 1px;
+              margin: auto;
+
+
+           }
+             th,td{
+
+                  border: 1px solid;
+
+             }
+
+     </style>
+
+
+     <body>
+
+           <div class="center-div">
+
+                <div class="table-responsive">
+                 <table>  
+                   <thead>
+                   
+                    <tr>
+                             <th>ID</th>
+                             <th>USER NAME</th>
+                             <th>PROFESSION</th>
+                             <th>COMPANY NAME</th>
+                             <th>EMAIL</th>
+                             <th>MOBILE NO</th>
+                             <th>WHATSAPP NO</th>
+                             <th>WEBSITE</th>
+                             <th>ADDRESS</th>
+                             <th>FB_URL</th>
+                             <th>INSTAGRAM</th>
+                             <th>LINKDIN</th>
+                             <th>DESCRIPTION</th>
+                             <th>LOGO</th>
+                             <th>IMAGE</th>
+                             <th>VIDEO</th>
+                             
+
+                     </tr>
+                   </thead>
+ 
+                            
+
+
+                            <tbody>
+                                    <?php
+                                       
+                                       include 'dbcon.php';
+
+                                       $selectquery = "select * from carddetailsdb";
+
+                                       $query = mysqli_query($con,$selectquery);
+
+                                       $nums = mysqli_num_rows($query);
+
+
+                                      while($res = mysqli_fetch_array($query))
+                                      {
+                                           ?>
+                                          <tr>
+                                            <td><?php echo $res['id'];  ?></td>
+                                            <td><?php echo $res['username'];  ?></td>
+                                            <td><?php echo $res['profession'];  ?></td>
+                                            <td><?php echo $res['company_name'];  ?></td>
+                                            <td><?php echo $res['email'];  ?></td>
+                                            <td><?php echo $res['phone_number'];  ?></td>
+                                             <td><?php echo $res['whatsapp'];  ?></td>
+                                            <td><?php echo $res['website'];  ?></td>
+                                            <td><?php echo $res['address'];  ?></td>
+                                            <td><?php echo $res['fb_url'];  ?></td>
+                                            <td><?php echo $res['instagram'];  ?></td>
+                                            <td><?php echo $res['linkdin'];  ?></td>
+                                             <td><?php echo $res['b_description'];  ?></td>
+                                            <td><?php echo $res['logo'];  ?></td>
+                                            <td><?php echo $res['images'];  ?></td>
+                                            <td><?php echo $res['video'];  ?></td>
+                                            
+
+                                          </tr>
+                                          <?php 
+                                      }
+
+                                       ?>
+                              
+                            </tbody>
+
+
+
+
+             
+                </table>
+
+                </div>
+           </div>
+
+
+     </body>
+</html>

@@ -1,0 +1,77 @@
+#top-bar {
+    
+    background: #CACFD2;
+    color: #F4F6F6;
+    padding: 2px 0 3px;
+    height:40px;
+}
+.indivlink3{
+     position:absolute;
+     right: 250px;
+     top: 10px;
+     
+}
+
+
+.indivlink4{
+     position:absolute;
+     right: 200px;
+     top: 10px;
+     
+}
+
+.indivlink5{
+     position:absolute;
+     right: 150px;
+     top: 10px;
+     
+}
+.indivlink6{
+     position:absolute;
+     right: 100px;
+     top: 10px;
+     
+}
+.indivlink7{
+     position:absolute;
+     right: 50px;
+     top: 10px;
+     
+}
+
+.indivlink3 a:hover i{
+    transform: scale(1.4);
+}
+
+.indivlink4 a:hover i{
+    transform: scale(1.4);
+}
+.indivlink5 a:hover i{
+    transform: scale(1.4);
+}
+.indivlink6 a:hover i{
+    transform: scale(1.4);
+}
+.indivlink7 a:hover i{
+    transform: scale(1.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

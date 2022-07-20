@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Digital visiting card</title>
+    
+         <link rel="stylesheet" type="text/css" href="main.css" />
+          <link rel="stylesheet" type="text/css" href="top.css" />
+         <script type="text/javascript" src="jquery.js"></script>
+         <link  href="bootstrap.css" rel="stylesheet" type="text/css" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+          <link rel="stylesheet" type="text/css" href="css/hme.css" />
+         <meta http-equiv="X-UA-Compatible" content="IE=9"/> 
+
+         <script language="javascript" type="text/javascript">
+    
+         </script>
+<link rel="stylesheet" href="in.css"/>
+<style>
+ .left{ border: 4px solid grey;
+        background: grey;
+        display: inline-block;
+      }
+#top-bar {
+    
+    background: #CACFD2;
+    color: #F4F6F6;
+    padding: 2px 0 3px;
+    height:40px;
+}
+
+#mtop-bar {
+    
+    background: #1E283A;
+    color: #9f9f9f;
+    padding: 5px 0 3px;
+}
+#header {
+    
+    background: #fff none repeat scroll 0 0;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+    z-index: 999;
+    
+}
+.mid{
+       position: absolute;
+       display: inline-block;
+       left: 184px;
+       width: 22%;
+       top: 500px;
+       margin: 12px auto;
+}
+.midright{
+           position: absolute;
+           display: inline-block;
+          left: 534px;
+           top: 500px;
+           width:40%;
+           margin: 12px auto;
+}
+.midright1{
+           position: absolute;
+           display: inline-block;
+          left: 734px;
+           top: 500px;
+           width:40%;
+           margin: 12px auto;
+}
+.midright2{
+           position: absolute;
+           display: inline-block;
+          left: 934px;
+           top: 500px;
+           width:40%;
+           margin: 12px auto;
+}
+.h{
+           position: absolute;
+           display: inline-block;
+           top: 150px;
+           width:100%;
+           margin: 12px auto;
+}
+.midright4{
+           position: absolute;
+           display: inline-block;
+          left: 534px;
+           top: 700px;
+           width:40%;
+           margin: 12px auto;
+}
+.midright5{
+           position: absolute;
+           display: inline-block;
+          left: 734px;
+           top: 700px;
+           width:40%;
+           margin: 12px auto;
+}
+.midright6{
+           position: absolute;
+           display: inline-block;
+          left: 934px;
+           top: 700px;
+           width:40%;
+           margin: 12px auto;
+}
+.midright7{
+           position: absolute;
+           display: inline-block;
+          left: 1134px;
+           top: 700px;
+           width:40%;
+           margin: 12px auto;
+}
+.footer{
+         position: absolute;
+         top: 1800px;
+         height: 50px;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:100%;
+         padding: 5px 0 3px;
+        
+}
+.description{
+         position: absolute;
+         top: 1000px;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:100%;
+         padding: 5px 0 3px;
+      }
+.descri{
+         position: absolute;
+         top: 1000px;
+         background: #1E283A;
+         color: #9f9f9f;
+         width:60%;
+         left: 340px;
+         padding: 5px 0 3px;
+      }
+.feature{
+         position: absolute;
+         top: 1700px;
+         
+         color: #9f9f9f;
+         width:100%;
+         left: 40px;
+         padding: 5px 0 3px;
+      }
+.features{
+         position: absolute;
+         top: 1700px;
+         
+         color: #9f9f9f;
+         width:100%;
+         left: 540px;
+         padding: 5px 0 3px;
+      }
+#headermenu{
+        position:absolute;
+        left:420px;top:100px;
+        height:30px;width:1300px;
+	}
+#headermenus{
+        position:absolute;
+        left:20px;top:50px;
+        height:15px;width:200px;
+	}
+	}
+#contacth{
+        position:absolute;
+        top: 800px;
+        height:15px;width:200px;
+	}
+.body{
+       
+     }
+#center{
+ 	position:absolute;
+ 	left:300px; top:300px;
+	height:360px;width:720px;
+	
+	
+	}
+#centerleft{
+ 	position:absolute;
+ 	left:600px; top:300px;
+	height:360px;width:720px;
+	
+	
+	}
+.m{
+border-radius:20px 0px 20px 0px;
+}
+.in{
+position:absolute;
+left:400px;
+top:300px;
+z-index:93;
+width:550px;
+height:1490px;
+background-color:#FFF;
+border:solid 0px;
+
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+
+
+@media screen and (max-width:767px)
+{
+ .in{
+position:relative;
+left:0px;
+top:0px;
+z-index:93;
+width:100%;
+height:1490px;
+background-color:#FFF;
+border:solid 0px;
+
+padding:20px;
+box-shadow:0px 4px 8px 4px black;
+opacity:0.98;
+}
+
+
+.h{
+           position: relative;
+           display: inline-block;
+           top: 0px;
+           width:100%;
+           margin: 12px auto;
+}
+}
+
+
+.mm{
+    position: absolute;
+    left: 40%;
+   top: 80px;
+}
+    
+    .tp{
+     position:absolute;
+     left: 50px;
+     top: 10px;
+     color: black;
+     
+}
+.tg{
+     position:absolute;
+     left: 350px;
+     top: 10px;
+     color: black;
+}
+@media screen and (max-width:767px)
+{
+    #top-bar {
+    
+
+    background: #CACFD2;
+    color: #F4F6F6;
+    padding: 2px 0 3px;
+    height:40px;
+}
+
+.tp{
+     position:absolute;
+     left: 0px;
+     top: 10px;
+     color: black;
+     visibility: hidden;
+}
+.tg{
+     position:absolute;
+     left: 50px;
+     top: 10px;
+     color: black;
+     visibility: hidden;
+}
+}
+</style>
+</head>
+  
+<body>
+<div id="top-bar">
+      
+
+      <div class="tp">
+        <i class="fa  fa-phone"></i>
+        <font size="2px" >&nbsp &nbsp Phone : +91 9579656021, 8796119051</font>
+       </div>
+
+      <div class="tg">
+        <i class="fa fa-envelope"></i>
+        <font style="size:"2px"; " >&nbsp &nbsp shyamprakash112@gmail.com </div>
+
+ 
+      <div class="indivlink3">
+      <a href="">
+      <i class="fa  fa-twitter"></i>
+      </a></div>
+
+      <div class="indivlink4">
+      <a href="">
+      <i class="fa  fa-facebook"></i>
+      </a></div>
+      <div class="indivlink5">
+      <a href="">
+      <i class="fa  fa-instagram"></i>
+      </a></div>
+      <div class="indivlink6">
+      <a href="">
+      <i class="fa  fa-linkedin"></i>
+      </a></div>
+      <div class="indivlink7">
+      <a href="">
+      <i class="fa  fa-youtube"></i>
+      </a></div>
+</div>
+</div>
+
+
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="img/aj.png" height="100rem" width="200rem"></a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sample.html">Sample Card</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="unique_url.php">Profile</a>
+      </li>
+     
+    <li class="nav-item">
+        <a class="nav-link" href="createacard.html">Create a card</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="logout.php">Logout</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+   
+
+
+<div class="h">
+  <table bgcolor="red"  border=1 width=100%>
+   <tr bgcolor="red">
+      <td>
+        
+       <center><h1>CREATE YOUR CARD</h1>   </td>
+   </tr>
+ </table>
+</div>  
+
+
+
+
+
+
+
+
+<form action="carddetailsupload.php" method="POST" enctype="multipart/form-data">
+<div class="in">
+  <div style="margin:0px 30px 0px 0px">
+ 
+    
+                                            
+                                        <span><h4>Create Your Card....</h4></span><br/>
+  
+        <center><b> Contact Person Name:</b></center>
+        <input type="text" autofocus class="form-control" name="username" required /><br>
+
+         <center><b> Profession:</b></center>
+        <input type="text" autofocus class="form-control" name="Profession" /><br>
+
+        <center><b> Company Name:</b></center>
+        <input type="text" autofocus class="form-control" name="companyname" required /><br>
+
+        <center><b> Email:</b></center>
+        <input type="email" autofocus class="form-control" name="email" required /><br>
+
+        <center><b> Phone Number:</b></center>
+        <input type="number" autofocus class="form-control" name="phonenumber" required /><br>
+
+        <center><b> Whatsapp No:</b></center>
+        <input type="number" autofocus class="form-control" name="whatsapp" required /><br>
+
+        <center><b> Website:</b></center>
+        <input type="url" autofocus class="form-control" name="website" /><br>
+
+        <center><b> Address:</b></center>
+        <input type="address" autofocus class="form-control" name="address" required /><br>
+
+        <center><b> Facebook Url:</b></center>
+        <input type="Url" autofocus class="form-control" name="fburl" /><br>
+
+        <center><b> Instagram:</b></center>
+        <input type="url" autofocus class="form-control" name="instagram" /><br>
+
+        <center><b> LinkDin:</b></center>
+        <input type="url" autofocus class="form-control" name="linkdin" /><br>
+
+        <center><b> Youtube Url:</b></center>
+        <input type="url" autofocus class="form-control" name="youtube" /><br>
+
+        <center><b>Bussiness Description</b></center>
+        <input type="text"  autofocus class="form-control" name="bdescription" /><br>
+
+        <center><b>Add Profile Photo:</b></center>
+        <input type="file"  class="form-control" name="profile" /><br>
+
+        <center><b>Add Cover Image:</b></center>
+        <input type="file"  class="form-control" name="cover" /><br>
+
+
+       <center><b>Add Conpany Logo:</b></center>
+        <input type="file"  class="form-control" name="logo" /><br>
+
+        <center><b>Add Business images:</b></center>
+        <input type="file"  class="form-control" name="images" /><br>
+
+        <center><b>Add Video:</b></center>
+        <input type="file"  class="form-control" name="video" /><br>
+
+        
+        <br/>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="Login();" name="submit">Create</button>
+</div>
+</div>
+</form>
+
+
+
+<footer>
+    <div class="footer">
+       <font size="5">©</font> &nbsp <font size="3">Copyright 2021</font>
+       
+    </div>
+</footer>
+
+
+</body>
+</html>
